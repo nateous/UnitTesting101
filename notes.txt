@@ -1,0 +1,67 @@
+Unit Testing 101 (examples in C# using NUnit and Moq)
+
+What is unit testing?
+talk about what unit tests are
+unit tests are small pieces of code that test individual pieces of "real" code
+what do they do
+types of testing from Description Tests to TDD
+
+Why should/shouldn't we write unit tests?
+slide with picture of AAA gun (unit tests are about covering fire in our applications, denying bugs the space you unit tested, bug like certain areas of your house, so unit test those areas)
+slide cost benefit analysis data from Microsoft/IBM research
+design concerns (unit testing makes you write unit testable code, separation of concerns, smaller/less complex code is easier to test, large/complex code is harder to test)
+* separation of concerns (e.g. Repository pattern, Service layer) show spaghetti code image and talk about it, why extracting methods as the only form of refactoring is bad, just gives you chopped spaghetti
+* inversion of control (e.g. Dependency Injection)
+unit tests as documentation
+what are the pros? know what your code does
+what are the cons? upfront time
+
+Where do we put our unit tests?
+project structure
+ - folder per class "MyClassNameTests" folder
+ - class per method "MyMethodShould" class
+ - method per test "ReturnSomethingGivenSomething" method
+a unit test class holds the test methods that test one method of a class we're unit testing
+
+How do we write unit tests?
+frameworks
+i like to use NUnit with Moq
+others exist, etc. (e.g MSTest, XUnit)
+AAA: arrange, act, assert
+
+When do we run unit tests?
+can setup VS to run everytime you build
+can setup CI to run everytime you commit or PR
+the sooner the better!
+
+Some tricky gotchas
+DateTime.Now
+Random
+unit tests need to return the same value for multiple runs
+
+Coding Examples
+* show project structure of unit tests
+* show a fat controller
+* show a fat repo method
+* show a good repo class using EF
+? show a generic repo class using EF??
+* show an anemic service method, one that simply passes through to the repo, that contains all the business logic
+* separation of concerns
+
+Pictures
+* Most interesting programmer in the world, "I don't usually test my code, but when I do, I do it in production"
+* Spaghetti code (use this when talking about unit tests having to change so often when developing) (talk about chopped spaghetti that you get when you are just simply extracting methods, instead of separating concerns)
+* show image of anti-aircraft gun for AAA
+
+Why 101?
+Other topics could include:
+Using the builder pattern in tests to get test data quicker
+Using base classes for test classes to reduce amount of setup code (automapper, config)
+
+Questions?
+
+References
+github repo of all code examples
+http://blog.stevensanderson.com/2009/11/04/selective-unit-testing-costs-and-benefits/
+https://apiumhub.com/tech-blog-barcelona/top-benefits-of-unit-testing/
+http://codebetter.com/iancooper/2008/12/03/the-fat-controller/
