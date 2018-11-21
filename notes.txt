@@ -39,6 +39,8 @@ DateTime.Now
 Random
 unit tests need to return the same value for multiple runs
 
+A study conducted by Microsoft and IBM showed that writing tests can add 15%-35% to development time, but reduce the number of bugs by 40%-90%.
+
 Coding Examples
 * show project structure of unit tests
 * show a fat controller
@@ -65,4 +67,6 @@ github repo of all code examples
 http://blog.stevensanderson.com/2009/11/04/selective-unit-testing-costs-and-benefits/
 https://apiumhub.com/tech-blog-barcelona/top-benefits-of-unit-testing/
 http://codebetter.com/iancooper/2008/12/03/the-fat-controller/
-https://www.atlassian.com/continuous-delivery/different-types-of-software-testing
+https://www.atlassian.com/continuous-delivery/different-types-of-software-testing/
+https://www.microsoft.com/en-us/research/group/empirical-software-engineering-group-ese/
+
