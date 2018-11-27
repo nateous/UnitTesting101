@@ -69,4 +69,5 @@ https://apiumhub.com/tech-blog-barcelona/top-benefits-of-unit-testing/
 http://codebetter.com/iancooper/2008/12/03/the-fat-controller/
 https://www.atlassian.com/continuous-delivery/different-types-of-software-testing/
 https://www.microsoft.com/en-us/research/group/empirical-software-engineering-group-ese/
+https://docs.microsoft.com/en-us/dotnet/core/testing/
 
