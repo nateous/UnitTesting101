@@ -1,6 +1,6 @@
 {
   "ProjectFilePath": "/Users/nathanbell/github/nateous/UnitTesting101/ProjectStructure/Core.Tests/Core.Tests.csproj",
-  "TargetFramework": "netstandard2.0",
+  "TargetFramework": "netcoreapp2.0",
   "TagHelpers": [],
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",
