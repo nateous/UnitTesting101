@@ -14,4 +14,33 @@ namespace Core
             return $"{first} {middle} {last}";
         }
     }
+
+    public class MyFatController
+    {
+        //[Route("/{id})]
+        //public IActionResult Get(int id)
+        public object GetStuff(int id)
+        {
+
+            return null;
+        }
+    }
+
+    public class MyOverlyComplexRepository
+    {
+        public object GetItem(int id)
+        {
+            return new object();
+        }
+    }
+
+    public class MyAnemicService
+    {
+        private readonly MyOverlyComplexRepository _repo = new MyOverlyComplexRepository();
+
+        public object GetItem(int id)
+        {
+            return _repo.GetItem(id);
+        }
+    }
 }
