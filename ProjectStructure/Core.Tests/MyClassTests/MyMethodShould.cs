@@ -25,5 +25,9 @@ namespace Core.Tests.MyClassTests
             var result = myClass.MyMethod(a, b);
             Assert.AreEqual(expected, result, message);
         }
+
+        //show test method snippet
+
+        //show test cases snippet
     }
 }
