@@ -26,8 +26,8 @@ namespace Core.Tests.MyClassTests
             Assert.AreEqual(expected, result, message);
         }
 
-        //show test method snippet
+        //show test method snippet (tm tab)
 
-        //show test cases snippet
+        //show test cases snippet (tc tab)
     }
 }

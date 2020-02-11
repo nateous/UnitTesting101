@@ -1,4 +1,8 @@
-namespace Awesome{
+using System.Collections.Generic;
+using NUnit.Framework;
+
+namespace Awesome
+{
     public class GetMergeFieldsShould
     {
         private CommunicationMergeFieldService _service;
