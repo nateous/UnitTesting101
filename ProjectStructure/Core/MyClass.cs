@@ -15,7 +15,7 @@ namespace Core
         }
     }
 
-    public class MyFatController
+    public class MyBloatedController
     {
         //[Route("/{id})]
         //public IActionResult Get(int id)
