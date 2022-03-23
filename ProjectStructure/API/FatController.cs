@@ -5,6 +5,7 @@ namespace Awesome
         [HttpPut("Details/{id}")]
         public async Task<ParentDTO> UpdateMyBusinessEntity([FromRoute] long id, [FromBody] ParentDTO parentDto)
         {
+            //TODO remove dbcontext
             var Parent = await _dbContext.Parent.Include(x => x.CalculationTotals).FirstOrDefaultAsync(x => x.RecordId == id);
             parentDto.ParentUploadComplete = false;
             parentDto.ParentUploadError = false;

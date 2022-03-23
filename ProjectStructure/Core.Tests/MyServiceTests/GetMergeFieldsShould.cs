@@ -67,3 +67,4 @@ namespace Awesome
         }
     }
 }
+// ~10 lines of test code for every one of REAL code!

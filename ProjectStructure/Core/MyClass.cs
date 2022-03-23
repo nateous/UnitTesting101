@@ -15,6 +15,7 @@ namespace Core
         }
     }
 
+    #region hidden
     public class MyFatController
     {
         //[Route("/{id})]
@@ -33,6 +34,7 @@ namespace Core
             return new object();
         }
     }
+    #endregion
 
     public class MyAnemicService
     {

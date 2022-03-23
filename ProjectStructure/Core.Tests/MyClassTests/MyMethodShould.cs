@@ -27,7 +27,26 @@ namespace Core.Tests.MyClassTests
         }
 
         //show test method snippet (tm tab)
+        [Test]
+        public void ReturnResultGivenInput()
+        {
+            //Arrange
 
+            //Act
+
+            //Assert
+
+        }
         //show test cases snippet (tc tab)
+        [TestCase()]
+        public void ReturnResultGivenInput()
+        {
+            //Arrange
+
+            //Act
+
+            //Assert
+
+        }
     }
 }
